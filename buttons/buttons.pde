@@ -3,7 +3,7 @@ float buttonX, buttonY, buttonWidth, ButtonHeight;
 color buttonColour, yellow=#F3FC03, purple=#FC03FC, white=#FFFFFF, reset=white;
 
 void setup() {
-  size(500, 600);
+  fullScreen();
   //Population
   buttonX = width*1/4;
   buttonY = height*1/3;
