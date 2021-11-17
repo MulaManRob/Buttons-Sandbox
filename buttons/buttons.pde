@@ -7,7 +7,7 @@ color rectHighlight, circleHighlight;
 color currentColor;
 boolean rectOver = false;
 boolean circleOver = false;
-
+float rectWidth, rectheight; 
 void setup() {
   fullScreen();
   rectColor = color(#9A13F0);
